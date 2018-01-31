@@ -177,7 +177,7 @@ figcaption{
 	padding-right: 50px !important;
 }
 
-@media screen and (max-width:360px) {
+@media screen and (orientation:portrait) {
 	.block{
 		background-color:black;
 		opacity:.75;
