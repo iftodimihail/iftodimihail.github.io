@@ -176,3 +176,15 @@ figcaption{
 	text-align: right ;
 	padding-right: 50px !important;
 }
+
+@media screen and (min-width:320px) and (max-width:640px) {
+	.block{
+		background-color:black;
+		opacity:.75;
+		padding:6px;
+		font-family:'Lobster';
+		width:300px;
+		border-radius:7px;
+		margin:auto;
+	}	
+}
