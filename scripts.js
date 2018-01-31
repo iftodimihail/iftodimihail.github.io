@@ -19,16 +19,14 @@ scrollNav();
 
 (function($) {
     var $window = $(window),
-        $frame = $('.col-lg-6');
+        $frame = $('.before');
         
     $window.resize(function resize() {
-        if ($window.width() < 1200) {
-          $('#proj-div').css("height","900px");
-          $frame.removeClass('col-lg-6');
-          return $frame.addClass('resized');
+        if($window.width() < 1200){
+          $frame.removeClass('before');
+          return $frame.addClass('after');
         }
-        $('#proj-div').css("height","100%");
-        $frame.addClass('col-lg-6');
-        $frame.removeClass('resized');
+        $frame.addClass('before');
+        $frame.removeClass('after');
     }).trigger('resize');
 })(jQuery);
