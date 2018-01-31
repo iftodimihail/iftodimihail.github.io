@@ -212,12 +212,20 @@ figcaption{
 		padding:5px;
 		background-color: #e8e8e8;
 	}
-	#about-div img{
+		#about-div img{
 		width: 300px;
-		height: 150px;
+		height: 200px;
 	}
 	.after #about-div{
 		height: 700px;
 		border-bottom:1px solid rgba(0,0,0,0.2);
+	}
+	
+	#ctanch{
+		margin-right: 0;
+	}
+	
+	.find{
+		text-align: left;
 	}
 }
