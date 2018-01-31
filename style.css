@@ -186,5 +186,30 @@ figcaption{
 		width:250px;
 		border-radius:7px;
 		margin:auto;
-	}	
+	}
+	.block h1{
+		margin-bottom:2px;
+		font-size:30px;
+		color: white;
+	}
+	.block h3{
+		margin-top: 0;
+		font-size: 10px;
+		color: white;
+	}
+	
+	#proj-div img{
+		min-width: 200px;
+		min-height: 100px;
+	}
+	
+	#proj-div figcaption{
+		margin: auto;
+		font-family: 'Oswald', sans-serif;
+		font-size: 1.7em;
+		width: 200px;
+		height: 50px;
+		padding:5px;
+		background-color: #e8e8e8;
+	}
 }
