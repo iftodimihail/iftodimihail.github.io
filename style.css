@@ -212,4 +212,8 @@ figcaption{
 		padding:5px;
 		background-color: #e8e8e8;
 	}
+	#about-div{
+		height: 700px;
+		border-bottom:1px solid rgba(0,0,0,0.2);
+	}
 }
