@@ -199,15 +199,15 @@ figcaption{
 	}
 	
 	#proj-div img{
-		min-width: 200px;
-		min-height: 100px;
+		width: 300px;
+		height: 150px;
 	}
 	
 	#proj-div figcaption{
 		margin: auto;
 		font-family: 'Oswald', sans-serif;
-		font-size: 1.7em;
-		width: 200px;
+		font-size: 1.2em;
+		width: 300px;
 		height: 50px;
 		padding:5px;
 		background-color: #e8e8e8;
