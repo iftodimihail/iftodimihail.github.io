@@ -32,6 +32,12 @@ body{
 
 
 /* -- Navbar style -- */
+.navbar-inverse{
+	border-radius: 0 !important;
+	background-color: #254372 !important;
+	border:0 !important;
+}
+
 .nav{
 	font-family: 'Raleway', sans-serif;
 	font-size:1.2em;
@@ -40,9 +46,9 @@ body{
 }
 
 .nav li a{
-  color:white;
+  color: white !important;
   text-decoration: none;
-  padding: 10px 15px 10px 15px !important;
+  /*padding: 10px 15px 10px 15px !important;*/
 }
 
 #ctanch{
@@ -55,8 +61,8 @@ body{
 }
 
 .nav li a:hover{
-  color:black;
-  background: rgb(238,238,238);
+  color:black !important;
+  background: rgb(238,238,238) !important;
   border-radius: 1px !important;
 }
 
@@ -68,24 +74,25 @@ body{
 
 /* -- Home div -- */
 
-.container-fluid{
-	width:100%;
-}
 
 #home-div{
-	margin-top: 40px;
 	background-image:url("home.jpg");
 	height: 640px;
+	margin-top:50px;
+	vertical-align: middle;
 }
 
+#banner{
+	padding-top: 10%;
+}
 .block{
   background-color:black;
   opacity:.75;
   padding:6px;
   font-family:'Lobster';
   width:600px;
-  margin:auto;
   border-radius:7px;
+	margin:auto;
 }
 .block h1{
   margin-bottom:4px;
@@ -100,8 +107,13 @@ body{
 
 /* -- About div -- */
 
-#about-div{
+.before #about-div{
 	height: 480px;
+	border-bottom:1px solid rgba(0,0,0,0.2);
+}
+
+.after #about-div{
+	height: 630px;
 	border-bottom:1px solid rgba(0,0,0,0.2);
 }
 #about-div h1{
@@ -115,9 +127,18 @@ body{
 
 /* -- Projects div -- */
 
-#proj-div{
+.before #proj-div{
 	text-align: center;
-	height: 750px !important;
+	height: 750px;
+}
+
+.after #proj-div{
+	text-align: center;
+	height: 1200px;
+}
+
+.after .botm{
+	margin-top:25px;
 }
 
 #proj-div h1{
@@ -127,15 +148,6 @@ body{
 	margin-top:30px;
 }
 
-/*.col-lg-6{
-	
-}*/
-.resized{
-	width: 40% !important;
-	display: inline-block;
-	vertical-align: middle;
-	margin: 25px;
-}
 
 figcaption{
 	margin: auto;
@@ -164,12 +176,3 @@ figcaption{
 	text-align: right ;
 	padding-right: 50px !important;
 }
-
-
-
-
-
-
-
-
-
