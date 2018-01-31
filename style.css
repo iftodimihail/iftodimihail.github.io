@@ -186,9 +186,11 @@ figcaption{
 
 /* ---- Phone ---- */
 @media screen and (orientation:portrait) {
+	
 	#banner{
-		padding-top: 15%;
+		padding-top: 20% !important;
 	}
+	
 	.block{
 		background-color:black;
 		opacity:.75;
@@ -232,7 +234,7 @@ figcaption{
 		height: 200px;
 	}
 	.after #about-div{
-		height: 700px !important;
+		height: 720px !important;
 		border-bottom:1px solid rgba(0,0,0,0.2);
 	}
 	
