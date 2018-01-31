@@ -7,6 +7,10 @@ body{
 	padding: 0px;
 }
 
+@viewport{
+	zoom: 1.0;
+	width: extend-to-zoom;
+}
 
 /* -- Scrolbar style -- */
 
@@ -85,15 +89,18 @@ body{
 #banner{
 	padding-top: 10%;
 }
+
 .block{
   background-color:black;
   opacity:.75;
   padding:6px;
   font-family:'Lobster';
-  width:600px;
+  min-width: 200px;
+	max-width: 600px;
   border-radius:7px;
 	margin:auto;
 }
+
 .block h1{
   margin-bottom:4px;
   font-size:90px;
@@ -113,7 +120,7 @@ body{
 }
 
 .after #about-div{
-	height: 630px;
+	height: 660px;
 	border-bottom:1px solid rgba(0,0,0,0.2);
 }
 #about-div h1{
@@ -144,6 +151,7 @@ body{
 #proj-div h1{
 	margin-top:25px;
 }
+
 #proj-div .row{
 	margin-top:30px;
 }
@@ -173,11 +181,14 @@ figcaption{
 }
 
 .col-sm-5{
-	text-align: right ;
-	padding-right: 50px !important;
+	text-align: left;
 }
 
+/* ---- Phone ---- */
 @media screen and (orientation:portrait) {
+	#banner{
+		padding-top: 15%;
+	}
 	.block{
 		background-color:black;
 		opacity:.75;
@@ -189,17 +200,17 @@ figcaption{
 	}
 	.block h1{
 		margin-bottom:2px;
-		font-size:30px;
+		font-size:42px;
 		color: white;
 	}
 	.block h3{
 		margin-top: 0;
-		font-size: 10px;
+		font-size: 18px;
 		color: white;
 	}
 	
 	#proj-div{
-		height: 1000px;
+		height: 1000px !important;
 	}
 	
 	#proj-div img{
@@ -216,12 +227,12 @@ figcaption{
 		padding:5px;
 		background-color: #e8e8e8;
 	}
-		#about-div img{
+	#about-div img{
 		width: 300px;
 		height: 200px;
 	}
 	.after #about-div{
-		height: 700px;
+		height: 700px !important;
 		border-bottom:1px solid rgba(0,0,0,0.2);
 	}
 	
