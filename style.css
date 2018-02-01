@@ -234,13 +234,13 @@ figcaption{
 		height: 31vh;
 	}
 	.after #about-div{
-		height: 705px !important;
+		height: 650px !important;
 		border-bottom:1px solid rgba(0,0,0,0.2);
 	}
 	
 	#about-div h3{
 		text-align:left;
-		font-size:1.4em;
+		font-size:1.3em;
 		padding-top: 15px;
 		font-family: 'Raleway', sans-serif;
 	}
