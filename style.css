@@ -196,18 +196,18 @@ figcaption{
 		opacity:.75;
 		padding:2px;
 		font-family:'Lobster';
-		width:80wv;
+		width:90wv;
 		border-radius:7px;
 		margin:auto;
 	}
 	.block h1{
 		margin-bottom:2px;
-		font-size: 1.7em;
+		font-size: 2em;
 		color: white;
 	}
 	.block h3{
 		margin-top: 0;
-		font-size: 1.1;
+		font-size: 1.1em;
 		color: white;
 	}
 	
@@ -217,21 +217,21 @@ figcaption{
 	
 	#proj-div img{
 		width: 80vw;
-		height: 30vh;
+		height: 25vh;
 	}
 	
 	#proj-div figcaption{
 		margin: auto;
 		font-family: 'Oswald', sans-serif;
 		font-size: 1.4em;
-		width: 300px;
-		height: 50px;
+		width: 80vw;
+		height: 5vw;
 		padding:5px;
 		background-color: #e8e8e8;
 	}
 	#about-div img{
 		min-width: 80vw;
-		height: 35vh;
+		height: 30vh;
 	}
 	.after #about-div{
 		height: 720px !important;
