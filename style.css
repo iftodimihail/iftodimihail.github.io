@@ -223,15 +223,15 @@ figcaption{
 	#proj-div figcaption{
 		margin: auto;
 		font-family: 'Oswald', sans-serif;
-		font-size: 1.4em;
+		font-size: 1.2em;
 		width: 80vw;
-		height: 5vw;
+		height: 12vw;
 		padding:5px;
 		background-color: #e8e8e8;
 	}
 	#about-div img{
-		min-width: 80vw;
-		height: 30vh;
+		width: 80vw;
+		height: 27vh;
 	}
 	.after #about-div{
 		height: 720px !important;
@@ -244,6 +244,6 @@ figcaption{
 	
 	.find{
 		text-align: left;
-		padding-bottom: 5px;
+		padding-bottom: 10px;
 	}
 }
