@@ -202,7 +202,7 @@ figcaption{
 	}
 	.block h1{
 		margin-bottom:2px;
-		font-size: 4em;
+		font-size: 3.9em;
 		color: white;
 	}
 	.block h3{
@@ -223,7 +223,7 @@ figcaption{
 	#proj-div figcaption{
 		margin: auto;
 		font-family: 'Oswald', sans-serif;
-		font-size: 1.5em;
+		font-size: 1.4em;
 		width: 80vw;
 		height: 12vw;
 		padding:5px;
@@ -234,7 +234,7 @@ figcaption{
 		height: 31vh;
 	}
 	.after #about-div{
-		height: 755px !important;
+		height: 705px !important;
 		border-bottom:1px solid rgba(0,0,0,0.2);
 	}
 	
