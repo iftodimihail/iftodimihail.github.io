@@ -202,7 +202,7 @@ figcaption{
 	}
 	.block h1{
 		margin-bottom:2px;
-		font-size: 2.2em;
+		font-size: 3em;
 		color: white;
 	}
 	.block h3{
@@ -223,7 +223,7 @@ figcaption{
 	#proj-div figcaption{
 		margin: auto;
 		font-family: 'Oswald', sans-serif;
-		font-size: 1.3em;
+		font-size: 1.4em;
 		width: 80vw;
 		height: 12vw;
 		padding:5px;
@@ -231,11 +231,17 @@ figcaption{
 	}
 	#about-div img{
 		width: 80vw;
-		height: 28vh;
+		height: 30vh;
 	}
 	.after #about-div{
-		height: 750px !important;
+		height: 755px !important;
 		border-bottom:1px solid rgba(0,0,0,0.2);
+	}
+	
+	#about-div h3{
+		font-size:1.1em;
+		padding-top: 15px;
+		font-family: 'Raleway', sans-serif;
 	}
 	
 	#ctanch{
