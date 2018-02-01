@@ -188,7 +188,7 @@ figcaption{
 @media screen and (orientation:portrait) {
 	
 	#banner{
-		padding-top: 20% !important;
+		padding-top: 40% !important;
 	}
 	
 	.block{
@@ -202,7 +202,7 @@ figcaption{
 	}
 	.block h1{
 		margin-bottom:2px;
-		font-size:42px;
+		font-size:28px;
 		color: white;
 	}
 	.block h3{
@@ -216,22 +216,22 @@ figcaption{
 	}
 	
 	#proj-div img{
-		width: 300px;
-		height: 150px;
+		width: 80vw;
+		height: 40vh;
 	}
 	
 	#proj-div figcaption{
 		margin: auto;
 		font-family: 'Oswald', sans-serif;
-		font-size: 1.2em;
+		font-size: 1.4em;
 		width: 300px;
 		height: 50px;
 		padding:5px;
 		background-color: #e8e8e8;
 	}
 	#about-div img{
-		width: 300px;
-		height: 200px;
+		width: 80vw;
+		height: 40vh;
 	}
 	.after #about-div{
 		height: 720px !important;
