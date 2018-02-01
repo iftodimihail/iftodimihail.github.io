@@ -212,7 +212,7 @@ figcaption{
 	}
 	
 	#proj-div{
-		height: 1000px !important;
+		height: 150vh !important;
 	}
 	
 	#proj-div img{
@@ -252,5 +252,16 @@ figcaption{
 	.find{
 		text-align: left;
 		margin-bottom: 5px !important;
+	}
+}
+@media screen and (max-width: 321px){
+	#proj-div figcaption{
+		margin: auto;
+		font-family: 'Oswald', sans-serif;
+		font-size: 1.2em;
+		width: 80vw;
+		height: 12vw;
+		padding:5px;
+		background-color: #e8e8e8;
 	}
 }
