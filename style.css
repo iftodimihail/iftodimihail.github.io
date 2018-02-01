@@ -202,7 +202,7 @@ figcaption{
 	}
 	.block h1{
 		margin-bottom:2px;
-		font-size: 5em;
+		font-size: 4em;
 		color: white;
 	}
 	.block h3{
@@ -231,7 +231,7 @@ figcaption{
 	}
 	#about-div img{
 		width: 80vw;
-		height: 30vh;
+		height: 31vh;
 	}
 	.after #about-div{
 		height: 755px !important;
@@ -240,7 +240,7 @@ figcaption{
 	
 	#about-div h3{
 		text-align:left;
-		font-size:1.7em;
+		font-size:1.4em;
 		padding-top: 15px;
 		font-family: 'Raleway', sans-serif;
 	}
@@ -251,6 +251,6 @@ figcaption{
 	
 	.find{
 		text-align: left;
-		margin-bottom: 5px;
+		margin-bottom: 5px !important;
 	}
 }
