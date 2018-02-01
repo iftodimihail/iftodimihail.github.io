@@ -188,7 +188,7 @@ figcaption{
 @media screen and (orientation:portrait) {
 	
 	#banner{
-		padding-top: 40% !important;
+		padding-top: 50% !important;
 	}
 	
 	.block{
@@ -196,18 +196,18 @@ figcaption{
 		opacity:.75;
 		padding:2px;
 		font-family:'Lobster';
-		width:250px;
+		width:80wv;
 		border-radius:7px;
 		margin:auto;
 	}
 	.block h1{
 		margin-bottom:2px;
-		font-size:28px;
+		font-size: 1.7em;
 		color: white;
 	}
 	.block h3{
 		margin-top: 0;
-		font-size: 18px;
+		font-size: 1.1;
 		color: white;
 	}
 	
@@ -217,7 +217,7 @@ figcaption{
 	
 	#proj-div img{
 		width: 80vw;
-		height: 40vh;
+		height: 30vh;
 	}
 	
 	#proj-div figcaption{
@@ -230,8 +230,8 @@ figcaption{
 		background-color: #e8e8e8;
 	}
 	#about-div img{
-		width: 80vw;
-		height: 40vh;
+		min-width: 80vw;
+		height: 35vh;
 	}
 	.after #about-div{
 		height: 720px !important;
@@ -244,5 +244,6 @@ figcaption{
 	
 	.find{
 		text-align: left;
+		padding-bottom: 5px;
 	}
 }
