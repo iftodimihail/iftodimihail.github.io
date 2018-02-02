@@ -265,3 +265,9 @@ figcaption{
 		background-color: #e8e8e8;
 	}
 }
+
+@media screen and (max-width: 770px) {
+	#ctanch{
+		margin-right: 0;
+	}
+}
