@@ -22,7 +22,7 @@ scrollNav();
         $frame = $('.before');
         
     $window.resize(function resize() {
-        if($window.width() < 1200){
+        if($window.width() < 1193){
           $frame.removeClass('before');
           return $frame.addClass('after');
         }
