@@ -271,3 +271,9 @@ figcaption{
 		margin-right: 0;
 	}
 }
+
+@media screen and (min-width: 1400px) {
+	#home-div{
+		background-image:url("home_big.jpg");
+	}
+}
