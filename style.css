@@ -191,6 +191,10 @@ figcaption{
 		padding-top: 50% !important;
 	}
 	
+	#home-div{
+		background-image:url("home_phone.jpg");
+	}
+	
 	.block{
 		background-color:black;
 		opacity:.75;
