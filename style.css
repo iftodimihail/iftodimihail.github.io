@@ -281,3 +281,97 @@ figcaption{
 		background-image:url("home_big.jpg");
 	}
 }
+
+/* Badge */
+
+.badge {
+    width: 275px;
+    height: 340px;
+    box-shadow: 0px 0px 5px #696a5e;
+    margin: 0 auto;
+    overflow: hidden;
+    font-size: 13px;
+    display: inline-block;
+    box-sizing: border-box;
+    position: relative;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.badge__top {
+    height: 40%;
+    position: relative;
+    overflow: hidden;
+    background: #6649e2;
+    color: #fff;
+    text-align: center;
+}
+
+.badge__title {
+    margin: 0;
+    font-size: 1.75em;
+    padding: 1em 0 0 0;
+    font-weight: normal;
+    transition: opacity 1s;
+    color: #fff;
+    position: relative;
+}
+.badge__name {
+    font-size: 1.6em;
+}
+
+
+.badge__bottom {
+    position: absolute;
+    bottom: 0;
+    height: 60%;
+    width: 100%;
+    transition: all 0.35s cubic-bezier(0.25, 0.5, 0.27, 1.21);
+    border-top: 1px solid #bcc2c6;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.additional-info {
+    padding: 1em 0.75em 0 0.75em;
+    text-align: justify;
+    font-size: 1.5em;
+    z-index: 1;
+    text-decoration: none;
+    position: relative;
+}
+
+.date {
+    position: absolute;
+    width: 100%;
+    display: block;
+    bottom: .5em;
+    z-index: 1;
+    font-size: 1.75em;
+    text-align: right;
+    box-sizing: border-box;
+    padding-right: 0.5em;
+}
+
+.keywords {
+    position: absolute;
+    bottom: 0;
+    padding: 0.75em;
+}
+
+.chip {
+    padding: 5px;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #24971d;
+    color: #24971d;
+    margin-right: 0.15em;
+    font-size: 1.5em;
+}
+
+.info-title {
+    font-size: 2.5em;
+    margin: 0.25em 0;
+}
+a {
+    color: black;
+}
