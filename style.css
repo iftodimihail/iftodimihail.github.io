@@ -114,6 +114,13 @@ body{
 
 /* -- About div -- */
 
+#about-div img{
+	margin-top: 25px;
+	width:320px;
+	border-radius: 4px;
+	height:215px;
+}
+
 .before #about-div{
 	height: 480px;
 	border-bottom:1px solid rgba(0,0,0,0.2);
@@ -282,7 +289,7 @@ figcaption{
 	}
 }
 
-/* Badge */
+/* Badge -- copied from https://geekyandfun.github.io/badges/pwa/badge-style.css but changed badge height*/
 
 .badge {
     width: 275px;
