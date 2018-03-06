@@ -115,7 +115,6 @@ body{
 /* -- About div -- */
 
 #about-div img{
-	margin-top: 25px;
 	width:320px;
 	border-radius: 4px;
 	height:215px;
@@ -138,7 +137,7 @@ body{
 #about-div h3{
 	padding-top: 15px;
 	font-family: 'Raleway', sans-serif;
-	font-size:22px;
+	font-size:22px !important;
 }
 
 /* -- Projects div -- */
